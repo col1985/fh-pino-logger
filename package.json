@@ -1,11 +1,15 @@
 {
-  "name": "fh-pino-logger",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Colum Bennett <cbennett@redhat.com> (https://www.redhat.com/)",
-  "license": "ISC"
+    "name": "fh-pino-logger",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha --reporter spec"
+    },
+    "author": "Colum Bennett <cbennett@redhat.com> (https://www.redhat.com/)",
+    "license": "ISC",
+    "dependencies": {
+        "mocha": "3.1.0",
+        "pino": "2.12.3"
+    }
 }
