@@ -1,6 +1,8 @@
 fh-pino-logger
 ====
 
+[![Build Status](https://travis-ci.org/col1985/fh-pino-logger.svg?branch=master)](https://travis-ci.org/col1985/fh-pino-logger)
+
 Simple implementation of light-weight and fast [Pino Logger](https://github.com/mcollina/pino) for use in RHMAP NodeJS cloud apps. For full API docs please see [here](https://github.com/mcollina/pino).
 
 ### Install
