@@ -1,8 +1,22 @@
 {
     "name": "fh-pino-logger",
-    "version": "0.0.1",
-    "description": "",
+    "version": "0.0.2",
+    "description": "Simple wrapper around Pino Logger for use RHMAP",
     "main": "index.js",
+    "keywords": [
+        "RHMAP",
+        "FeedHenry",
+        "Pino",
+        "logger"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:col1985/fh-pino-logger.git"
+    },
+    "bugs": {
+        "url": "https://github.com/col1985/fh-pino-logger/issues"
+    },
+    "homepage": "https://github.com/col1985/fh-pino-logger",
     "scripts": {
         "test": "./node_modules/.bin/mocha --reporter spec"
     },
